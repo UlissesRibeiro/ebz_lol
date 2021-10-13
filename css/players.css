@@ -3,25 +3,28 @@
 	/*background-image: url('../img/morgana.jpg');*/
 	background-size: cover;
 	height: auto;
-	width: auto;
+	width: 400px;
 	background-repeat: no-repeat;
 	text-shadow: 2px 2px 2px black;	
 }
 .str2{
 	/*background-image: url('../img/twitch_lol.jpg');*/
 	background-size: cover;
+	width: 400px;
 	background-repeat: no-repeat;
 	text-shadow: 2px 2px 2px black;
 }
 .str3{
 	/*background-image: url('../img/xinzhao.jpg');*/
 	background-size: auto;
+	width: 400px;
 	background-repeat: no-repeat;
 	text-shadow: 2px 2px 2px black;
 }
 .str4{
 	/*background-image: url('../img/shen.jpg');*/
 	background-size: cover;
+	width: 400px;
 	background-repeat: no-repeat;
 	text-shadow: 2px 2px 2px black;
 }
