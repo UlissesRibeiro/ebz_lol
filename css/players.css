@@ -29,6 +29,11 @@
 	text-shadow: 2px 2px 2px black;
 }
 
+.carousel-caption h5{
+	position: absolute;
+	top: 2px;
+}
+
 /*FIM TAMANHO DAS BOX*/
 .container a{
 	color:white;
