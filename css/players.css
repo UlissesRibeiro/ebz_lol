@@ -37,8 +37,9 @@
 /*FIM TAMANHO DAS BOX*/
 .container a{
 	color:white;
-	text-shadow: 2px 2px 2px black;
+	/*text-shadow: 2px 2px 2px black;*/
 }
+
 
 .btn-group a:hover{
 	background-color:#dd0f0f;
