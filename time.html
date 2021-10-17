@@ -26,23 +26,19 @@
     </head>
 <body>
         <!--INICIO NAVBAR-->
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #302406;" aria-label="Tenth navbar example">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #302406;" aria-label="Tenth navbar example">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
         
               <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-                
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Eternos Bronze</a>
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="players.html">Time</a>
+                    <a class="nav-link active" href="#">Time</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Contato</a>
@@ -61,27 +57,49 @@
           </nav>
           
           <!--FIM NAVBAR-->
-
+          <!-- Seção sobre inicio -->
+          <section class="page-section text-white mb-0" style="background-image: url('img/fundo.jpeg');
+          background-image: linear-gradient(to right, black, #302406);   background-size: cover; text-shadow:;
+          padding-top: 100px;" id="sobre" >
+            
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white"  >CONHEÇA NOSSO TIME</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ms-auto"><p class="lead"  style="font-weight: bold;">
+                      <img class="d-block mx-auto mb-4" src="img/logo.png" alt="" width="350" height="350" style="padding-top: 10px;"> </p>
+                    </div>
+                    <div class="col-lg-4 me-auto"><p class="lead" style="font-size: 14px;">Somos um grupo de jogadores de League of Legends, que no principio jogávamos de forma aleatória, apenas pelo entretenimento
+                      uma vez que eu(malawho), TharuxBR e XjohnBR streamavamos nossas partidas!<br>
+                      Com o passar do tempo, fomos definindo nossas main lanes, até que surgiu a oportunidade
+                      de participar de um campeonato da GamersClub, tínhamos parado de jogar devido nossas vidas fora do game, mas devido a esse campeonato, decidimos nos reunir novamente
+                      dessa vez com a saída do XjohnBR e a entrada do Osterreichischer.<br>
+                      Não tínhamos nenhuma pretensão de jogarmos partidas ranqueadas, uma vez que sabíamos das nossas limitações, mesmo assim tentamos nos dedicar,
+                      por mais que alguns de nós tenhamos saído do Bronze, sempre teremos nosso coração no elo onde tudo acontece e os metas são criados,
+                      o <strong>Eterno Bronze</strong>!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Seção sobre fim -->
 		<!-- jogadores -->
 		
 	<section id="streamers-section">
 		<!-- players -->
 		<main>
-			<section class="py-5 text-center container">
-			  <div class="row py-lg-5">
-				<div class="col-lg-6 col-md-8 mx-auto">
-				  <h1 class="fw-light">Conheça nossos jogadores</h1>
-				  <p class="lead text-muted">Feedamos como nunca, perdemos como sempre!</p>
-				</div>
-			  </div>
-			</section>
-
       <!--carrosel dentro da box malawho -->
 		  <div class="album py-5">
 			  <div class="container">
 				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-1">
 				  <div class="col">
-					<div class="card shadow-sm str1">
+					<div class="card shadow-sm player1">
               <div id="malawho" class="carousel slide /*carousel-fade*/ " data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -120,7 +138,7 @@
 
           <!--carrosel dentro da box tharuxbr -->
 				  <div class="col">
-					<div class="card shadow-sm str2">
+					<div class="card shadow-sm player2">
 					  <div id="tharuxbr" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -155,7 +173,7 @@
 
           <!--carrosel dentro da box snullk -->
 				  <div class="col">
-					<div class="card shadow-sm str3">
+					<div class="card shadow-sm player3">
             <div id="snullk" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -186,11 +204,13 @@
               </button>
             </div>
         </div>
-        </div>
-		  
+      </div>
+    </div>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-1 justify-content-md-center">
         <!--carrosel dentro da box Osterreichischer -->
 				  <div class="col">
-					<div class="card shadow-sm str4">
+					<div class="card shadow-sm player4">
             <div id="Osterreichischer" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -218,9 +238,10 @@
               </button>
             </div>
         </div>
-        </div>
-					</div>
-				  </div>
+      </div>
+    </div>
+  </div>
+</div>
 				 
 	</main>
 			  
