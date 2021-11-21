@@ -27,7 +27,11 @@
 	
 }
 
-
+#updates{
+	height: 100px;
+	padding-top: 150px;
+	
+}
 
 
 /* css responsivo provisorio */
@@ -69,6 +73,13 @@
 		font-size: 16px;
 		text-align: center;
 	}
+
+#elo{
+	width: 100%;
+}
+#elo-team img{
+	width: 100%;
+}
 
 .carousel-caption h1{
     font-size: 25px;
